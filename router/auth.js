@@ -11,9 +11,7 @@ const Post = require("../model/post");
 
 router.use(cookieParser());
 
-router.get("/", (req, res) => {
-    res.send(`Hello World from server router js`);
-});
+
 
 
 
