@@ -1,5 +1,5 @@
 # SMAM
-SMAM(Suggest Me A Movie) is a web app for movie/tv series sugesstions.
+SMAM(Suggest Me A Movie) is a web app for movie/tv series suggestions.
 
 Here you can search for movies and tv series. You can suggest some movie/tv series to others and also like and comment on other's suggestions(posts).
 
