@@ -90,8 +90,10 @@ const Navbar = () => {
                 <>
                     <ol>
                         <li style={{ display: showsearch ? "block" : "none" }}><Search /></li>
-                        <li style={{ display: showsearch ? "block" : "none" }}><i onClick={() => { setShowsearch(false) }} className="fas fa-times"></i></li>
-                        <li style={{ display: showsearch ? "none" : "block" }}><i onClick={() => { setShowsearch(true) }} className="fas fa-search"></i></li>
+                        <li className="searchformbl" style={{ display: showsearch ? "block" : "none" }}><i onClick={() => { setShowsearch(false) }} className="fas fa-times"></i></li>
+                        <li className="searchformbl" style={{ display: showsearch ? "none" : "block" }}><i onClick={() => { setShowsearch(true) }} className="fas fa-search"></i></li>
+                        <li className="searchforpc"><Search /></li>
+                        <li className="searchforpc crossicon"><i className="fas fa-search"></i></li>
                         <li><NavLink className="nav-link" to="/recommendations">Recommends</NavLink></li>
                         <li><NavLink className="nav-link" to="/login">LogIn</NavLink></li>
                         {/* <li><NavLink className="nav-link" to="/signup">Sign Up</NavLink></li> */}

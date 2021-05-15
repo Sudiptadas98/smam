@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Trending from "./pages/Trending";
-import Banner from "./assests/banner.jpg";
+import Banner from "./assests/bannerlow.jpg";
 
 
 const Home = () => {

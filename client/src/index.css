@@ -456,6 +456,7 @@
 .trendingmain{
   /* margin-top: 5vh; */
   padding-top: 15vh;
+  min-height: 100vh;
 }
 .trendinghome{
   padding-top: 3vh;
@@ -997,6 +998,26 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+.loading2page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+.loading2page p{
+  font-size: 13px;
+  color: #7b7a81;
+  margin: 0 0 5px 0;
+}
+.loading2page span{
+  font-size: 12px;
+  color: #7b7a81;
+}
+.loading2page img{
+  width: 140px;
 }
 
 /* footer */
